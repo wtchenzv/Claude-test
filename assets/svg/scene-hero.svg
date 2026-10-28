@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" role="img" aria-label="繪本風東京插圖：富士山、東京鐵塔、晴空塔、聖誕樹與新幹線"><style>@keyframes pop{0%{opacity:0;transform:translateY(22px) scale(.92)}100%{opacity:1;transform:none}}@keyframes boing{0%{transform:scale(.85)}60%{transform:scale(1.12)}100%{transform:scale(1)}}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}@keyframes drift{0%{transform:translateX(-40px)}100%{transform:translateX(60px)}}@keyframes drift2{0%{transform:translateX(50px)}100%{transform:translateX(-50px)}}@keyframes fly{0%{transform:translate(-80px,10px)}100%{transform:translate(460px,-14px)}}@keyframes train{0%{transform:translateX(-140px)}100%{transform:translateX(420px)}}@keyframes twinkle{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.75)}}@keyframes sway{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}@keyframes snow{0%{transform:translateY(-10px);opacity:0}15%{opacity:1}100%{transform:translateY(240px);opacity:0}}@keyframes sun{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}.fb{transform-box:fill-box;transform-origin:center}.cloud1{animation:drift 9s ease-in-out infinite alternate}.cloud2{animation:drift2 11s ease-in-out infinite alternate}.plane{animation:fly 16s linear infinite}.trainx{animation:train 11s linear infinite}.tw{animation:twinkle 1.6s ease-in-out infinite}.tw2{animation:twinkle 2.2s ease-in-out .5s infinite}.tw3{animation:twinkle 1.9s ease-in-out 1s infinite}.sunx{animation:sun 4s ease-in-out infinite}.sway{animation:sway 4s ease-in-out infinite;transform-origin:bottom center;transform-box:fill-box}.snowd{animation:snow 7s linear infinite}.bobx{animation:bob 2.6s ease-in-out infinite}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+      <!-- sun -->
+      <g class="sunx fb"><circle cx="316" cy="42" r="20" fill="#F2A497" stroke="#3E3A39" stroke-width="3"/></g>
+      <!-- clouds -->
+      <g class="cloud1"><path d="M30 52 Q22 52 24 44 Q26 37 34 38 Q36 28 48 29 Q58 30 59 39 Q69 38 69 46 Q69 52 62 52Z" fill="#fff" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/></g>
+      <g class="cloud2"><path d="M150 34 Q144 34 145 28 Q147 22 153 23 Q155 15 164 16 Q172 17 173 24 Q180 23 180 29 Q180 34 175 34Z" fill="#fff" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/></g>
+      <!-- plane -->
+      <g class="plane">
+        <g class="bobx">
+          <path d="M0 26 Q-2 20 8 20 L40 20 Q54 20 56 26 Q54 32 40 32 L8 32 Q-2 32 0 26Z" fill="#fff" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M6 20 L0 8 L12 8 L18 20Z" fill="#F2A497" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M26 30 L34 44 L44 44 L40 30Z" fill="#A8D3E6" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/>
+          <circle cx="44" cy="25" r="2.5" fill="#3E3A39"/><circle cx="35" cy="25" r="2.5" fill="#3E3A39"/><circle cx="26" cy="25" r="2.5" fill="#3E3A39"/>
+        </g>
+      </g>
+      <!-- fuji -->
+      <path d="M6 192 L78 102 Q90 88 102 102 L174 192Z" fill="#A8D3E6" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M68 116 L78 102 Q90 88 102 102 L112 116 L103 110 L96 119 L89 111 L81 119 L75 111Z" fill="#fff" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/>
+      <!-- tokyo tower -->
+      <g>
+        <path d="M172 192 L184 106 L190 66 L196 106 L208 192Z" fill="#F2A497" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/>
+        <rect x="180" y="100" width="20" height="9" rx="3" fill="#F6D27A" stroke="#3E3A39" stroke-width="3"/>
+        <path d="M178 150 L202 150 M175 172 L205 172 M184 128 L196 128" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+        <path d="M190 66 L190 46" stroke="#3E3A39" stroke-width="3" stroke-linecap="round"/>
+        <circle class="tw3 fb" cx="190" cy="44" r="3.5" fill="#F6D27A" stroke="#3E3A39" stroke-width="2.5"/>
+      </g>
+      <!-- skytree -->
+      <g>
+        <path d="M256 192 L266 98 L270 34 L274 98 L284 192Z" fill="#fff" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/>
+        <ellipse cx="270" cy="98" rx="13" ry="6" fill="#F6D27A" stroke="#3E3A39" stroke-width="3"/>
+        <ellipse cx="270" cy="78" rx="8" ry="4" fill="#F6D27A" stroke="#3E3A39" stroke-width="3"/>
+        <path d="M270 34 L270 14" stroke="#3E3A39" stroke-width="3" stroke-linecap="round"/>
+        <circle class="tw fb" cx="270" cy="12" r="3.5" fill="#F2A497" stroke="#3E3A39" stroke-width="2.5"/>
+        <path d="M262 150 L278 150 M259 172 L281 172" stroke="#A8D3E6" stroke-width="3" stroke-linecap="round"/>
+      </g>
+      <!-- ground -->
+      <path d="M-2 190 Q90 172 180 188 T362 186 V252 H-2Z" fill="#D8EBC9" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/>
+      <!-- christmas tree -->
+      <g class="sway">
+        <rect x="35" y="198" width="10" height="12" rx="2" fill="#F2A497" stroke="#3E3A39" stroke-width="3"/>
+        <path d="M40 150 L56 176 H24Z" fill="#B9DAA5" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M40 164 L60 192 H20Z" fill="#B9DAA5" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M40 178 L64 202 H16Z" fill="#B9DAA5" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/>
+        <path class="tw fb" d="M40 138 L43 146 L51 146 L45 151 L47 159 L40 154 L33 159 L35 151 L29 146 L37 146Z" fill="#F6D27A" stroke="#3E3A39" stroke-width="2.5" stroke-linejoin="round"/>
+        <circle class="tw2 fb" cx="34" cy="174" r="3.5" fill="#F2A497" stroke="#3E3A39" stroke-width="2"/>
+        <circle class="tw fb" cx="48" cy="186" r="3.5" fill="#F6D27A" stroke="#3E3A39" stroke-width="2"/>
+        <circle class="tw3 fb" cx="30" cy="196" r="3.5" fill="#A8D3E6" stroke="#3E3A39" stroke-width="2"/>
+      </g>
+      <!-- rails -->
+      <path d="M-2 238 H362" stroke="#3E3A39" stroke-width="3"/>
+      <path d="M8 238v8M38 238v8M68 238v8M98 238v8M128 238v8M158 238v8M188 238v8M218 238v8M248 238v8M278 238v8M308 238v8M338 238v8" stroke="#3E3A39" stroke-width="3" stroke-linecap="round"/>
+      <!-- train -->
+      <g class="trainx">
+        <g>
+          <path d="M0 224 Q0 208 14 208 L88 208 Q112 208 122 224 L122 236 L0 236Z" fill="#fff" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/>
+          <rect x="0" y="224" width="122" height="7" fill="#A8D3E6" stroke="#3E3A39" stroke-width="3"/>
+          <rect x="10" y="213" width="14" height="8" rx="3" fill="#F6D27A" stroke="#3E3A39" stroke-width="2.5"/>
+          <rect x="32" y="213" width="14" height="8" rx="3" fill="#F6D27A" stroke="#3E3A39" stroke-width="2.5"/>
+          <rect x="54" y="213" width="14" height="8" rx="3" fill="#F6D27A" stroke="#3E3A39" stroke-width="2.5"/>
+          <path d="M88 213 L102 213 Q108 215 112 221 L88 221Z" fill="#F6D27A" stroke="#3E3A39" stroke-width="2.5" stroke-linejoin="round"/>
+          <circle cx="22" cy="237" r="5" fill="#3E3A39"/><circle cx="96" cy="237" r="5" fill="#3E3A39"/>
+        </g>
+      </g>
+      <!-- snow dots -->
+      <g fill="#fff" stroke="#A8D3E6" stroke-width="2">
+        <circle class="snowd" cx="60" cy="0" r="3"/>
+        <circle class="snowd" style="animation-delay:-2s" cx="130" cy="0" r="2.5"/>
+        <circle class="snowd" style="animation-delay:-4s" cx="215" cy="0" r="3"/>
+        <circle class="snowd" style="animation-delay:-1s" cx="300" cy="0" r="2.5"/>
+        <circle class="snowd" style="animation-delay:-5.5s" cx="340" cy="0" r="3"/>
+        <circle class="snowd" style="animation-delay:-3s" cx="100" cy="0" r="2"/>
+      </g>
+    </svg>
